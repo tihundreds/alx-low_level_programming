@@ -1,21 +1,17 @@
 #include "main.h"
-
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
+* main - Entry block
+* @void: no argument
+* Return: 0 
+**/
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');	
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');										
+      char ermias[] = "_putchar";
 
-return (0);
+      int c;
+      for (c = 0; c < 8; c++)
+      {
+	          -putchar(ermias[c]);
+      }
+      _putchar('\n');								      return (0);
 }
