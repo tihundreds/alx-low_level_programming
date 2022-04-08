@@ -6,7 +6,6 @@
 /**
 * _calloc - allocates memory for an array
 * @nmemb: first input parameter
-*
 * @size: second input parameter
 *
 * Return: pointer
