@@ -1,12 +1,12 @@
 #include "variadic_functions.h"
 #include<stdio.h>
 #include<stdarg.h>
-
 /**
 * p_char - print char
 * @list:arg
 * Return: void
 */
+
 void p_char(va_list list)
 {
 printf("%c", va_arg(list, int));
