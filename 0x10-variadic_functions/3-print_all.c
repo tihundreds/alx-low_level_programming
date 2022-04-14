@@ -16,6 +16,7 @@ printf("%c", va_arg(list, int));
 * @list:arg
 * Return: void
 */
+
 void p_string(va_list list)
 {
 char *str;
@@ -26,7 +27,6 @@ str = "(nil)";
 printf("%s", str);
 }
 /**
-*
 * p_integer - print integer
 * @list:arg
 * Return: void
@@ -63,8 +63,8 @@ t_print t[] = {
 {NULL, NULL}
 };
 va_list valist;
-
 char *s = "";
+
 va_start(valist, format);
 i = 0;
 while (format && format[i])
