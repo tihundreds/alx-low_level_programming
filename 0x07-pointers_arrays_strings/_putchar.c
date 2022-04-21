@@ -1,0 +1,1 @@
+'intead_putchar'
