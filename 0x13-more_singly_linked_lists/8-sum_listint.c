@@ -18,4 +18,3 @@ int sum_listint(listint_t *head)
 		new = new->next;
 	}
 	return (i);
-}
